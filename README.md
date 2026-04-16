@@ -23,8 +23,8 @@ Welcome to the official technical documentation for Sentinel Elite. This is not 
 ---
 Mandatory Browser: Google Chrome.
 OCR Engine: The bot uses Tesseract-OCR bundled with OpenCV to convert the game's render stream into readable text arrays.
-
-# ⚠️ STRICT INSTALLATION PATH: You MUST install Tesseract exactly at this absolute path: C:\Program Files\Tesseract-OCR\tesseract.exe. Any deviation will throw main-thread exceptions and permanently blind the bot.
+https://github.com/tesseract-ocr/tesseract/releases
+⚠️ STRICT INSTALLATION PATH: You MUST install Tesseract exactly at this absolute path: C:\Program Files\Tesseract-OCR\tesseract.exe. Any deviation will throw main-thread exceptions and permanently blind the bot.
 
 ---
 
