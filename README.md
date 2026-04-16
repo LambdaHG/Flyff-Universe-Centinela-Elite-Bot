@@ -22,6 +22,7 @@ Mandatory Browser: Google Chrome.
 OCR Engine: The bot uses Tesseract-OCR bundled with OpenCV to convert the game's render stream into readable text arrays.
 
 # ⚠️ STRICT INSTALLATION PATH: You MUST install Tesseract exactly at this absolute path: C:\Program Files\Tesseract-OCR\tesseract.exe. Any deviation will throw main-thread exceptions and permanently blind the bot.
+
 ---
 
 # ⚙️ 2. DEBUGGING ENVIRONMENT SETUP (CDP PORT)
@@ -38,6 +39,7 @@ In the "Target" field, paste EXACTLY this execution argument:
 Kill all previous Chrome instances in Task Manager.
 
 Open the game solely from this shortcut and log in with your Ringmaster (RM) only.
+
 ---
 
 # 🖥️ 3. CLIENT PARAMETERIZATION (IN-GAME)
@@ -53,6 +55,7 @@ F1 Bar (Buffs): Slots 1 to 0 are exclusively reserved for Buffs.
 F2 Bar (Survival): Slot 1 = Heal, Slot 2 = HP Potion, Slot 3 = MP Potion.
 
 Follow Key: Verify your "Follow" keycode (Default: Z).
+
 ---
 
 # 🎯 4. VECTOR CONFIGURATION (CALIBRATION)
@@ -66,6 +69,7 @@ Start the bot, click "🔄 Fetch" and select the RM tab endpoint. You must accur
 ❌ STEP C ('X' Coordinate Mapping): With the static bar still up, click "Step C" and place the pointer on the 'X' button. This triggers a direct DOM Input.dispatchMouseEvent, safely clearing the target without hardware key hooks.
 
 🛡️ STEP D & E (RM HP/MP Mapping): Repeat the process to log RGB vectors for YOUR OWN Health (Red Channel) and Mana (Blue Channel) bars located top-left.
+
 ---
 
 # 🩺 5. TROUBLESHOOTING (F.A.Q.)
@@ -81,20 +85,24 @@ A: This usually happens due to one of three reasons:
 (1) UI scale is not maximized.
 (2) String discrepancy (Bot vs Game, case-sensitive).
 (3) You mapped Step B over the dynamic Party HUD instead of the static center-top target frame.
+
 ---
 
 # ⚖️ 6. SECURITY DISCLAIMER & LEGAL NOTICE
 ---
 🔓 Open Source & Privacy
 SENTINEL ELITE is 100% free, Open Source software. IT IS NOT A VIRUS, it features zero keylogging routines and no network modules for remote data extraction. All communication happens purely via the local debugging port (http://localhost:9222). For your machine's integrity, ALWAYS download from Chang's official GitHub repo; do not accept third-party executables.
+
 ---
 
 # 💉 Injection Mechanism & Anti-Cheat
 This software DOES NOT read or write to RAM allocated to the game client. It injects no DLLs nor uses Windows memory manipulation APIs (like WriteProcessMemory). It functions via screen analysis and virtual hardware dispatch via Chrome. Therefore, on a technical level, it is practically "undetectable" by standard Anti-Cheat signatures (GameGuard, XignCode, etc).
+
 ---
 
 # 🚨 Suspension Risk (Heuristics)
 The use of macros, bots, and third-party automation tools is a direct violation of the Flyff Universe Terms of Service (ToS). Even if the software leaves the client uncompromised, Game Masters possess heuristic detection tools (behavioral analysis). If you leave the bot 24/7 unsupervised, loop exact time intervals, or get recorded and reported by players, your account will be permanently banned.
+
 ---
 
 # 📜 Liability Waiver
