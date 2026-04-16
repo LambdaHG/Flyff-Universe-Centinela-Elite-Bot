@@ -102,9 +102,6 @@ This software DOES NOT read or write to RAM allocated to the game client. It inj
 
 # 🚨 Suspension Risk (Heuristics)
 The use of macros, bots, and third-party automation tools is a direct violation of the Flyff Universe Terms of Service (ToS). Even if the software leaves the client uncompromised, Game Masters possess heuristic detection tools (behavioral analysis). If you leave the bot 24/7 unsupervised, loop exact time intervals, or get recorded and reported by players, your account will be permanently banned.
-
----
-
 # 📜 Liability Waiver
 You are compiling and utilizing this tool at YOUR SOLE AND EXCLUSIVE RISK. The original developer (Chang) assumes no legal, moral, or technical liability for bans, account loss, or damages derived from the use of this script. Furthermore, it is explicitly declared that this project is strictly for educational/experimental software engineering purposes and holds absolutely no affiliation, sponsorship, partnership, or commercial connection with Flyff Universe, Gala Lab Corp, or any of their subsidiaries and official developers.
 ---
