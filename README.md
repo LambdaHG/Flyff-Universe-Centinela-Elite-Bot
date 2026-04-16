@@ -1,3 +1,6 @@
+<img width="716" height="760" alt="image" src="https://github.com/user-attachments/assets/eaccb893-de58-41e4-bb91-b277113409e2" />
+
+
 # 🛠️ TECHNICAL MANUAL & SPECIFICATIONS: CENTINELA ELITE BOT (v5.0)
 ### Key Features:
 * **Ghost OCR Scan:** Real-time dynamic localization of the Main DPS.
@@ -5,7 +8,7 @@
 * **Safe Deselection:** Utilizes the 'X' DOM node to clear targets without visual bugs.
 * **Memory Stealth:** No RAM injection (0% risk of detection by standard anti-cheat signatures).
 
-## 🚀 DOWNLOAD / DESCARGA
+## 🚀 DOWNLOAD
 Go to the [Releases](https://github.com/LambdaHG/Flyff-Universe-Centinela-Elite-Bot/releases/) section to download the compiled **.exe** file.
 ---
 
@@ -64,11 +67,19 @@ Start the bot, click "🔄 Fetch" and select the RM tab endpoint. You must accur
 
 🕹️ STEP A (OCR Array Validation): Move the Party frame to the BOTTOM LEFT and enable side party bars. Click "Step A". The system fetches an internal Base64 screenshot, applies grayscale/inverse binarization, and matches your target string.
 
+<img width="629" height="721" alt="image" src="https://github.com/user-attachments/assets/94ecf980-4d58-4ba4-a200-7ef6ca5af35e" />
+
 ❤️ STEP B (Main HP Pixel Mapping): Click your Main in-game (static top-center bar). Click "Step B", and within 5s place the pointer on the red section. The bot will cyclically read the Red Channel (R) array of that pixel.
+
+<img width="469" height="164" alt="image" src="https://github.com/user-attachments/assets/106d5fd6-d826-4246-8f04-f90b1a08af83" />
 
 ❌ STEP C ('X' Coordinate Mapping): With the static bar still up, click "Step C" and place the pointer on the 'X' button. This triggers a direct DOM Input.dispatchMouseEvent, safely clearing the target without hardware key hooks.
 
+<img width="452" height="160" alt="image" src="https://github.com/user-attachments/assets/41908b5d-f678-472e-bbf2-fb2193cf5efa" />
+
 🛡️ STEP D & E (RM HP/MP Mapping): Repeat the process to log RGB vectors for YOUR OWN Health (Red Channel) and Mana (Blue Channel) bars located top-left.
+
+<img width="265" height="133" alt="image" src="https://github.com/user-attachments/assets/436cfa90-dfbc-46cf-9610-6921c6b31b91" />
 
 ---
 
