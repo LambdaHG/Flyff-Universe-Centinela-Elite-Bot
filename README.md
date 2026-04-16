@@ -11,7 +11,9 @@ Go to the [Releases](https://github.com/LambdaHG/Flyff-Universe-Centinela-Elite-
 
 # 📖 Introduction
 ---
+
 Welcome to the official technical documentation for Sentinel Elite. This is not a simple macro recorder; it is an advanced automation system based on Message Passing Interface (CDP) and Computer Vision. Strictly follow this guide to ensure error-free execution and runtime stability.
+
 ---
 
 # 🏗️ 1. SYSTEM ARCHITECTURE & REQUIREMENTS
