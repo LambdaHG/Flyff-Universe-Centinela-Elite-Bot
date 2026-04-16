@@ -1,4 +1,4 @@
-🛠️ TECHNICAL MANUAL & SPECIFICATIONS: SENTINEL ELITE (v5.0)
+🛠️ TECHNICAL MANUAL & SPECIFICATIONS: CENTINELA ELITE BOT (v5.0)
 
 📖 Introduction
 Welcome to the official technical documentation for Sentinel Elite. This is not a simple macro recorder; it is an advanced automation system based on Message Passing Interface (CDP) and Computer Vision. Strictly follow this guide to ensure error-free execution and runtime stability.
