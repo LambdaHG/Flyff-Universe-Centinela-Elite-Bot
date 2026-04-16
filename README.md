@@ -1,12 +1,9 @@
 # 🛠️ TECHNICAL MANUAL & SPECIFICATIONS: CENTINELA ELITE BOT (v5.0)
----
 ### Key Features:
 * **Ghost OCR Scan:** Real-time dynamic localization of the Main DPS.
 * **Self-Management:** The RM monitors its own HP/MP and automatically triggers potions.
 * **Safe Deselection:** Utilizes the 'X' DOM node to clear targets without visual bugs.
 * **Memory Stealth:** No RAM injection (0% risk of detection by standard anti-cheat signatures).
-
----
 
 ## 🚀 DOWNLOAD / DESCARGA
 Go to the [Releases](https://github.com/LambdaHG/Flyff-Universe-Centinela-Elite-Bot/releases/) section to download the compiled **.exe** file.
